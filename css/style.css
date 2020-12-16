@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+li{
+    text-decoration: none;
+}
+html, body{
+    /* background-color: brown; */
+    scrollbar-width: thin;
+}
+.background-main{
+    background-color: none;
+    width: 100%;
+    height: 49vw;
+    background: url('https://images.unsplash.com/photo-1568715684971-9ac138754ab9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1945&q=80');
+    background-repeat: no-repeat;
+    background-size: 100vw 49vw;
+}
+.menu{
+    width: 500px;
+    height: auto;
+    padding-top: calc(100% - 1000px);
+    padding-left: calc(100% - 1040px);
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu a{
+    text-decoration: inherit;
+    padding-left: 20px;
+    color: black;
+    transition-duration: 0.5s;
+}
+.menu a:hover{
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.background-cross{
+    background-color: brown;
+    width: 100%;
+    height: 49vw;
+    padding-top: 50vw;
+    padding-left: 0px;
+}
+@media (max-width: 400px){
+    .background-main{
+        height: 200vw; 
+        background-size: 210vw 200vw;
+    }
+    .menu{
+        width: 400px;
+        padding-top: 600px;
+        padding-left: calc(100% - 320px);
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .background-cross{
+        background-color: brown;
+        width: 100%;
+        height: 49vw;
+        padding-top: 200vw;
+        padding-left: 0px;
+    }
+}
